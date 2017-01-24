@@ -8,7 +8,7 @@ class Difference:
     def computeDifference(self):
         maxno = max(self.__elements)
         minno = min(self.__elements)
-        self.maximumDifference = abs(minno - maxno)
+        self.maximumDifference = maxno - minno
 
 # End of Difference class
 
